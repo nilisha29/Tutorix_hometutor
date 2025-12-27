@@ -7,6 +7,8 @@ import Link from "next/link";
 import { useTransition } from "react";
 import { useRouter } from "next/navigation";
 
+import Navbar from "@/app/(public)/_components/Navbar";
+
 
 const loginSchema = z.object({
   email: z.string().email("Enter a valid email"),
