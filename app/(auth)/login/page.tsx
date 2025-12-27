@@ -3,7 +3,8 @@ import LoginForm from "../_components/LoginForm";
 
 export default function LoginPage() {
   return (
-    <div className="min-h-screen grid grid-cols-1 md:grid-cols-2">
+    // <div className="min-h-screen grid grid-cols-1 md:grid-cols-2">
+     <div className="min-h-[calc(100vh-64px)] grid grid-cols-1 md:grid-cols-2">
       
       
       {/* Left Illustration Section */}
